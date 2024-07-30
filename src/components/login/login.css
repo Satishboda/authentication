@@ -1,0 +1,114 @@
+/* Container for the entire login component */
+.bg-image{
+    /* background-image: url('../../assets/images/final_logo.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative; */
+    align-content: center;
+   height: 100vh;
+    
+    
+}
+.login-form{
+    margin: 8% 8%;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* height: 100vh; */
+    
+    /* background-color: #f5f5f5; */
+
+  }
+  
+  /* Card styling for the login form */
+  .card {
+    background: #fff;
+    padding: 2% 4%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 25rem;
+  }
+  
+  /* Title styling for the login form */
+  .title {
+    margin-bottom: 1.5rem;
+    /* text-align: center; */
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  /* Form styling */
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Form group styling */
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Label styling */
+  .label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Input group styling */
+  .input-group {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  /* Icon container styling */
+  .input-icon {
+    background-color: #eee;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Input field styling */
+  .input {
+    flex: 1;
+    padding: 0.5rem;
+    border: none;
+    outline: none;
+  }
+  
+  /* Button styling */
+  .button {
+    background-color:#0d6efd;
+    color: #fff;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+  }
+  
+  .button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Password toggle button styling */
+  .password-toggle {
+    background: none;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+ 
+  

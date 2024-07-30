@@ -1,0 +1,50 @@
+.table-container {
+    overflow: visible;
+    margin: 1% 1%;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 8px; /* Adjust the spacing between buttons */
+  }
+  /* fetchgroups.css */
+.create-group-button {
+    background-color: blue;
+    color: white;
+  }
+  .search-container {
+    margin-bottom: 1rem;
+  }
+  
+  .search-input {
+    width: 200px; /* Adjust the width as needed */
+  }
+  .table-container .awsui-button-dropdown {
+    z-index: 10; /* Ensure dropdown is above other elements */
+  }
+  
+  .table-container .awsui-modal {
+    z-index: 20; /* Ensure modals are above other elements */
+  }
+  .cancel-icon {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+  }
+  
+  .cancel-icon .icon {
+    width: auto;
+    height: 1em;
+    margin-right: 0.5em;
+    color: red;
+    position: relative; /* Applying position: relative */
+  }
+  
+  
+  
